@@ -1,37 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="th">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me - Pathawee Sahaviriya</title>
+    
+    <!-- นำเข้าฟอนต์ Sarabun จาก Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- เชื่อมต่อกับไฟล์ CSS ที่เราแยกไว้ในโฟลเดอร์ css -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <!-- ส่วนหัวข้อหลัก -->
-    <h1>ประวัติส่วนตัว (About Me)</h1>
+    <div class="profile-card">
+        <img src="profile.jpg" alt="รูปโปรไฟล์ของ Kim">
 
-    <!-- ส่วนรูปภาพ -->
-    <img src="คิม.jpg" alt="รูปโปรไฟล์ของ Kim" width="200">
+        <h1>Pathawee Sahaviriya (Kim)</h1>
+        <p style="color: #666; margin-top: 0;">Business Information Systems Student</p>
 
-    <!-- ส่วนข้อความเนื้อหา -->
-    <p><strong>ชื่อ-นามสกุล:</strong> Pathawee Sahaviriya (Kim)</p>
-    <p><strong>การศึกษา:</strong> คณะวิทยาการจัดการ สาขาสารสนเทศทางธุรกิจ มหาวิทยาลัยสงขลานครินทร์</p>
-    <p><strong>ข้อมูลร่างกาย:</strong> น้ำหนัก 55 กก. | ส่วนสูง 165 ซม.</p>
-    <p><strong>อาหารโปรด:</strong> ขนมไทย</p>
+        <div class="content-section">
+            <p><strong>🎓 การศึกษา:</strong> คณะวิทยาการจัดการ มหาวิทยาลัยสงขลานครินทร์</p>
+            <p><strong>🧍 ข้อมูลร่างกาย:</strong> น้ำหนัก 55 กก. | ส่วนสูง 165 ซม.</p>
+            <p><strong>🍡 อาหารโปรด:</strong> ขนมไทย</p>
+            
+            <p style="border-bottom: none; margin-bottom: 0;"><strong>🎯 งานอดิเรก:</strong></p>
+            <ul class="hobbies">
+                <li>วาดรูป</li>
+                <li>เล่นกีฬา</li>
+                <li>อ่านหนังสือ</li>
+            </ul>
+        </div>
 
-    <!-- ส่วนรายการงานอดิเรก -->
-    <p><strong>งานอดิเรก:</strong></p>
-    <ul>
-        <li>วาดรูป</li>
-        <li>เล่นกีฬา</li>
-        <li>อ่านหนังสือ</li>
-    </ul>
-
-    <!-- ส่วนลิงก์โซเชียลมีเดีย -->
-    <p><strong>ช่องทางการติดต่อ:</strong></p>
-    <ul>
-        <!-- ใส่ target="_blank" เพื่อให้เวลาคลิกแล้วเปิดในแท็บใหม่ -->
-        <li><a href="https://www.instagram.com/kpatx.v/?hl=en" target="_blank">Instagram: kpatx.v</a></li>
-        <li><a href="https://www.facebook.com/?locale=th_TH" target="_blank">Facebook</a></li>
-    </ul>
+        <ul class="social-links">
+            <li><a href="https://www.instagram.com/kpatx.v/?hl=en" target="_blank" class="ig">Instagram</a></li>
+            <li><a href="https://www.facebook.com/?locale=th_TH" target="_blank" class="fb">Facebook</a></li>
+        </ul>
+    </div>
 
 </body>
 </html>
